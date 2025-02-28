@@ -106,11 +106,27 @@
 .statistics__items{
   display: flex;
   justify-content: flex-start;
-  gap: 20px;
+  gap: 50px;
 }
 .statistics__item{
   display: flex;
   justify-content: flex-start;
-  align-items: end;
+  align-items: center;
+
+}
+.statistics__item span{
+  color: #2970fa;
+  font-size: 28px;
+
+}
+.statistics__item h3{
+  color: #000000;
+  font-size: 28px;
+}
+.statistics__item p{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 3px;
 }
 /* /Statistics */
