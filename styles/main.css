@@ -29,6 +29,10 @@ body{
   padding-bottom: 10px;
 }
 
+.section-paragraph{
+  line-height: 2em;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
