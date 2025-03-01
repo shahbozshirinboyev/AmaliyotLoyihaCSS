@@ -663,3 +663,15 @@
     width: fit-content;
 }
 /* /Guaranteed */
+
+/* Discount */
+.discount__bg{
+  margin-top: 54px;
+  background-image: url('../assets/images/hosting-company-11.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+  background-size: contain;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-top: 15vw;
+  padding-bottom: 10vw;
+}
+/* /Discount */
