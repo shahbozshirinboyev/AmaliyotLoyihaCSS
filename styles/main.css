@@ -572,8 +572,94 @@
 .testimonials__cards{
   display: flex;
   justify-content: space-between;
+  margin-top: 54px;
 }
 .testimonials__card{
-  width: 26%;
+  width: 30%;
+  padding: 30px;
+  background-image: url('../assets/images/hosting-company-04.png');
+  background-size: initial;
+    background-position: center bottom 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+}
+.testimonials__card img{
+  width: 94px;
+  height: 94px;
+  border-radius: 100%;
+}
+.testimonials__card p{
+  color: #666;
+  line-height: 2em;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.testimonials__card-author{
+  color: #666;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.testimonials__card-author h4{
+  font-weight: 600;
 }
 /* /Testimonials */
+
+/* Guaranteed */
+.guaranteed{
+  text-align: center;
+}
+.guaranteed__cards{
+  margin-top: 54px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.guaranteed__card{
+  width: 510px;
+  text-align: start;
+  background-position: right bottom 0px;
+  background-size: contain;
+  border-radius: 24px 24px 24px 24px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.06);
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.guaranteed__card-blue{
+  background-color: #7EBEC5;
+  background-image: url('../assets/images/guaranteed/hosting-company-06.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+}
+.guaranteed__card-orange{
+  background-color: #7EBEC5;
+  background-image: url('../assets/images/guaranteed/hosting-company-07-1.png'), linear-gradient(150deg, #ffba61 0%, #ffdc71 100%);
+}
+.guaranteed__card h2{
+  color: white;
+  line-height: 1.2em;
+}
+.guaranteed__card p{
+  color: white;
+  line-height: 2em;
+}
+.guaranteed__card button{
+  color: #ffffff;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #263547;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+    padding: 0.3em 1em;
+    width: fit-content;
+}
+/* /Guaranteed */
