@@ -386,6 +386,8 @@
 .blue-card button{
   color: #fff;
   background-color: #2970fa;
+  box-shadow: 0px 20px 30px 0px rgba(41, 112, 250, 0.2);
+
 }
 .blue-card ul li::marker{
   color: #2970fa;
@@ -405,3 +407,173 @@
   color: #cccccc
 }
 /* /Pricing */
+
+/* Managment */
+.managment{
+  margin-top: 104px;
+  display: flex;
+  gap: 120px;
+}
+.managment__content-goups{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 28px;
+}
+.managment__content-goup{
+  display: flex;
+  gap: 20px;
+}
+.managment__content-goup img{
+  width: 40px;
+  height: 40px;
+}
+.managment__content-goup h2{
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+.managment__content-goup p{
+  color: #666;
+  font-weight: 500;
+  line-height: 2em;
+  font-size: 14px;
+}
+.managment__content-goup > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.managment__action img{
+  width: 510px;
+}
+.managment__action button{
+  color: #ffffff;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #2970fa;
+    letter-spacing: 1px;
+    padding: 14px 38px;
+    margin-top: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(41, 112, 250, 0.2);
+    transition: letter-spacing 300ms ease 0ms;
+}
+/* /Managment */
+
+/* Chat */
+.chat__bg{
+  position: relative;
+  background-repeat: no-repeat;
+  padding-top: 15vw;
+  padding-bottom: 8vw;
+  background-size: contain;
+  background-position: center top;
+  background-image: url('../assets/images/hosting-company-02.png'), linear-gradient(150deg, #ffba61 0%, #ffe970 100%);
+}
+.chat__bg-end{
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url('../assets/images/download.svg');
+}
+.chat{
+  width: 700px;
+  margin: 54px auto;
+  text-align: center;
+}
+.chat h1{
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 1.2em;
+  color: #fff;
+  text-shadow: 0em 0.1em 2em rgba(0, 0, 0, 0.4);
+}
+.chat p{
+  margin: 30px auto;
+  color: white;
+  word-wrap: break-word;
+  line-height: 2em;
+  text-shadow: 0em 0.1em 2em rgba(0, 0, 0, 0.4);
+}
+.chat button{
+  color: #ffffff;
+  padding: 14px 38px;
+    border-width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #263547;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+}
+/* /Chat */
+
+/* Setup */
+.setup{
+  margin: 120px auto;
+  display: flex;
+  gap: 50px;
+}
+.setup img{
+  width: 510px;
+}
+.setup ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin: 50px auto;
+}
+.setup ul li{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: #333;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.setup ul li i{
+  font-size: 22px;
+    color: #ff8f00;
+}
+.setup button{
+  color: #ffffff;
+  border-width: 0px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #2970fa;
+  padding: 14px 38px;
+  box-shadow: 0px 20px 30px 0px rgba(41, 112, 250, 0.2);
+}
+/* /Setup */
+
+/* Testimonials */
+.testimonials{
+  text-align: center;
+  margin: 120px auto;
+}
+.testimonials__cards{
+  display: flex;
+  justify-content: space-between;
+}
+.testimonials__card{
+  width: 26%;
+}
+/* /Testimonials */
