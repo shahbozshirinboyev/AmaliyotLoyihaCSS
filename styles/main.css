@@ -42,6 +42,7 @@
   box-shadow: 0 0 30px rgba(7, 51, 84, 0.17);
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 .navbar .brand a {
   font-size: 23px;
@@ -671,7 +672,47 @@
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
-  padding-top: 15vw;
+  padding-top: 12vw;
   padding-bottom: 10vw;
 }
 /* /Discount */
+
+/* Footer */
+.footer__bg{
+  background-color: #222;
+}
+.foother{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+}
+.foother > div{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.foother p{
+  font-weight: 500;
+}
+.foother p span{
+  font-weight: 700;
+  line-height: 1.7em;
+  display: inline;
+  cursor: pointer;
+}
+.foother p span:hover{
+  color: #444444;
+  transition: all .4s ease-in-out;
+}
+.foother div i{
+  text-align: right;
+  font-size: 24px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.foother div i:hover{
+  color: #2ea3f2;
+  transition: all .4s ease-in-out;
+}
+/* /Footer */
