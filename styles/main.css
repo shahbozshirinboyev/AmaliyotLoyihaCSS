@@ -5,16 +5,16 @@
   font-family: "Poppins", serif;
 }
 .container {
-  width: 1280px;
+  width: 85%;
   margin: 0 auto;
 }
 
 .section-title{
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 14px;
-  color: #ff8f00 !important;
-  letter-spacing: 1px;
+  font-size: .875rem;
+  color: #ff8f00;
+  letter-spacing: .0625rem;
   line-height: 1.5em;
 }
 
@@ -176,6 +176,7 @@
   letter-spacing: 1px;
   font-size: 13px;
   padding: 14px 38px;
+  margin-top: 20px;
   text-transform: uppercase;
   background-color: #2970fa;
   box-shadow: 0px 20px 30px 0px rgba(41, 112, 250, 0.2);
@@ -476,7 +477,7 @@
   background-image: url('../assets/images/hosting-company-02.png'), linear-gradient(150deg, #ffba61 0%, #ffe970 100%);
 }
 .chat__bg-end{
-  display: block;
+  display: inline-block;
   position: absolute;
   pointer-events: none;
   width: 100%;
@@ -494,7 +495,7 @@
 }
 .chat h1{
   font-weight: 500;
-  font-size: 52px;
+  font-size: 3.25rem;
   line-height: 1.2em;
   color: #fff;
   text-shadow: 0em 0.1em 2em rgba(0, 0, 0, 0.4);
@@ -572,7 +573,7 @@
 }
 .testimonials__cards{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 54px;
 }
 .testimonials__card{
@@ -668,7 +669,7 @@
 /* Discount */
 .discount__bg{
   margin-top: 54px;
-  background-image: url('../assets/images/hosting-company-11.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%) !important;
+  background-image: url('../assets/images/hosting-company-11.png'), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
   background-size: contain;
   background-position: center top;
   background-repeat: no-repeat;
@@ -681,37 +682,37 @@
 .footer__bg{
   background-color: #222;
 }
-.foother{
+.footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #666;
 }
-.foother > div{
+.footer > div{
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 14px;
 }
-.foother p{
+.footer p{
   font-weight: 500;
 }
-.foother p span{
+.footer p span{
   font-weight: 700;
   line-height: 1.7em;
   display: inline;
   cursor: pointer;
 }
-.foother p span:hover{
+.footer p span:hover{
   color: #444444;
   transition: all .4s ease-in-out;
 }
-.foother div i{
+.footer div i{
   text-align: right;
   font-size: 24px;
   margin-left: 20px;
   cursor: pointer;
 }
-.foother div i:hover{
+.footer div i:hover{
   color: #2ea3f2;
   transition: all .4s ease-in-out;
 }
